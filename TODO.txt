@@ -1,0 +1,11 @@
+TODOLIST
+
+Doing: ?
+
+Todo:
+- Make a quest system
+- Make a NPC system
+
+Not Important:
+- Implement event system (partially done)
+- Make a game gui (with log, inventory, battle info, etc.)

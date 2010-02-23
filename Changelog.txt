@@ -1,0 +1,69 @@
+=== Changelog ===
+This is the changelog
+
+=== Saturday, December 19 2009 ===
+* Fixed the item price generation system
+* Fixed a bug that rendered spells unusable
+* Removed some races and classes
+* Added spells to remaining classes
+* Reduced the amount of xp needed to gain a level
+
+=== Friday, December 11 2009 ===
+! Version 0.3, Ogre
+* Implementet the following things:
+- Use of armor, shields to reduce damage taken
+- Use of trinkets, to add different bonuses (hp, dmg, armor)
+* The battle system is adaptet to the changes above
+* Removed maplib, becuase it was a dead end
+
+=== Sunday, November 22 2009 ===
+! Version 0.2, Kobold
+* Wrote an item loot system
+* Wrote an store system
+* Wrote an equip system
+* Implemented all of the above systems
+
+=== Wednesday, October 14 2009 ===
+! Version 0.1, Goblin
+* Wrote a new battle system
+* Implemented new battle system
+
+=== Saturday, September 26 2009 ===
+* moved monster data to a class
+? (Now the game is only using classes to store game data made in engine.py)
+
+=== Friday, September 25 2009 ===
+* began implementing event system
+
+=== Saturday, September 19 2009 ===
+* Created a class for items
+* Created a format for the item stats,
+  that can be parsed with a simple regular expression,
+  it looks like this: 1-9melee.damage, 2str.bonus
+
+=== Sunday, August 23 2009 ===
+* Finished moving character data to a class
+
+=== Thursday, August 20 2009 ===
+* Changed a lot of code
+* Began moving player data from a list to a class 
+
+=== Monday, August 10 2009 ===
+* Added a file with some handy decorators
+
+=== Sunday, August 09 2009 ===
+* Added a spellbook.ini file that contains data about the spells
+* Wrote a wrapper for the spellbook.ini file
+
+=== Saturday, August 08 2009 ===
+* Put data that can be changed into the data.ini file and wrote a reader
+* Fixed engine.py so the game now uses the data for data.ini
+* Removedd the old data files (*.conf)
+
+=== Friday, August 07 2009 ===
+* Created a class with use full functions that gives info on a point on a map
+* Created a random map generator, but its VERY buggy
+* Random map genertor now works as it should
+
+=== Tuesday, August 04 2009 ===
+* Created a git repository with the files from svn no more svn
